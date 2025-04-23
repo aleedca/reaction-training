@@ -1,0 +1,71 @@
+:root{
+  --background-color: #ffffff;
+  --text-color: #000000;
+  --button-color: #493123;
+  --font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: var(--font-family);
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* center the content vertically */
+  align-items: center; /* center the content horizontally */
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  font-family: var(--font-family)
+}
+
+button {
+  margin: 10px;
+  padding: 10px 0;
+  width: 150px;
+  font-size: 16px;
+  background-color: var(--button-color);
+  color: var(--background-color);
+  font-family: var(--font-family);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.main-page, .game-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 0;
+}
+
+.main-page label {
+  font-family: var(--font-family);
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.main-page select {
+  margin: 0 0 40px 0;
+  padding: 5px;
+  font-size: 16px;
+  width: 150px;
+  font-family: var(--font-family);
+}
+
+.color-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 5px;
+}
